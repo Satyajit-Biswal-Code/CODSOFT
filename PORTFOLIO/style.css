@@ -1,0 +1,137 @@
+body {
+  padding-left: 100px;
+  flex-wrap: wrap;
+  padding-right: 100px;
+  margin-top: 20px;
+}
+
+.image {
+  height: 50px;
+  width: 200px;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: larger;
+  column-gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(rgb(145, 53, 226), rgb(69, 65, 190), rgb(92, 55, 194));
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.portpic {
+  height: 500px;
+  width: 500px;
+}
+.middle {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top:20px;
+  align-items: center;
+}
+.but {
+  background-color: rgb(128, 82, 171);
+  color: white;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  border: 1px solid white;
+  margin-top: 80px;
+}
+
+.but:hover {
+  background-color: rgb(218, 113, 228);
+}
+
+h1 {
+  font-size: xx-large;
+  font-size: bold;
+}
+.text {
+    margin-top: 10px;
+  font-weight: 300;
+  font-size: large;
+  line-height: 30px;
+}
+.footerimg {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  /* padding: 20px 20px; */
+  margin-top: 30px;
+}
+
+.imgg {
+  margin-right: 15px;
+}
+
+.full{
+width: 100%;
+height: 100vh;
+}
+
+form{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+input{
+margin-bottom: 20px;
+  padding: 10px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.Submit{
+  background-color: rgb(144, 74, 204);
+  border: 1px solid white;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+color: white;
+}
+.Submit:hover{
+ background-color: rgb(204, 104, 207);
+color: white;
+}
+
+.contact{
+  width: 100%;
+  height: 100vh;
+background-color:dodgerblue;
+}
+
+.projects{
+  width: 100%;
+  height: 100vh;
+  border: 2px solid black;
+margin-bottom: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.clock{
+  height: 200px;
+  width: 180px;
+  border: 1px solid black;
+}
+
+.imge{
+  width: 200px;
+  height: 180px;
+}

@@ -1,0 +1,212 @@
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-wrap: wrap;
+  background:linear-gradient( to right,rgb(215, 120, 66) 20% ,rgb(168, 86, 198) 70%);
+  color: white;
+}
+
+.header{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: rgba(223, 99, 227, 0.892); */
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+
+}
+
+.phone{
+    border-spacing: 5px;
+    border: 2px solid black;
+    border-left: 2px;
+    border-top: 2px;
+    border-bottom: 2px;
+}
+.but{
+    background: transparent;
+    padding: 5px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+}
+
+.but:hover{
+    background-color: black;
+    color: white;
+}
+
+.ic{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    margin-left: 20px;
+
+}
+
+a:hover{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    height: 50px;
+    width:100%;
+    color:black;
+}
+
+input{
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+
+.i:hover{
+    background-color: blue;
+    border-radius: 2px solid white;
+    color: white;
+}
+
+.serv{
+    display: flex;
+
+}
+
+.imge{
+    height: 400px;
+    width: 400px;
+    margin-top: 35px;
+}
+.abo{
+    display: flex;
+    justify-content: space-around;
+    color:black;
+}
+p{
+    height: 300px;
+    width: 600px;
+    color:black
+}
+
+.bt{
+    background:linear-gradient( to right,rgb(215, 120, 66) 20% ,rgb(168, 86, 198) 70%);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    width: 202px;
+}
+.about{
+    background-color: rgb(210, 224, 222);
+    height:65vh ;
+    width: 100%;
+    /* margin-top: 100px; */
+    flex-wrap: wrap;
+}
+.bt:hover{
+    background:linear-gradient( to left,rgb(215, 120, 66) 20% ,rgb(168, 86, 198) 70%);
+    border: 1px solid white;
+}
+
+.imag{
+    height: 150px;
+    width: 150px;
+    margin-right: 25px;
+    /* border: 1px solid black; */
+}
+
+.image_block{
+    display: grid;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.bu{
+    width: 150px;
+    padding: 6px;
+    /* border-radius: 15px; */
+    color:black;
+}
+
+.service{
+background-color: aliceblue;
+background-image: url(images/background_image.png);  
+  height: 80vh;
+    width: 100%;
+    color:black;
+    flex-wrap: wrap;
+    
+}
+
+.serv{
+    margin-left: 100px;
+    /* margin-top: 100px; */
+    margin-right: 100px;
+    flex-wrap: wrap;
+}
+
+u{
+    margin-left: 100px;
+}
+.middle{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.mini{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image:url(images/homeback.webp);
+    /* background-image:url(images/background_image.png); */
+    /* opacity: 50%; */
+}
+.item{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.things{
+    margin-top: 300px;
+    gap: unset;
+}
+
+.buut{
+    background:linear-gradient( to right,rgb(215, 120, 66) 20% ,rgb(168, 86, 198) 70%);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    width: 202px;
+}
+.buut:hover{
+    background:linear-gradient( to left,rgb(215, 120, 66) 20% ,rgb(168, 86, 198) 70%);
+    border: 1px solid white;
+}
